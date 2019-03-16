@@ -1,0 +1,160 @@
+@import "variables";
+@import "nav";
+@import "home";
+/*Specifies the behavior of the 'width' and 'height' properties.*/
+* {box-sizing: border-box;}
+/*wrapper, wrapper2-Used for determining the grid array*/
+.wrapper {
+  display: grid;/*In combination with 'float' and 'position', determines the type of box or boxes that are generated for an element.*/
+  grid-template-columns: repeat(20, 1fr);/*specifies, as a space-separated track list, the line names and track sizing functions of the grid.*/
+  border-radius: 5px;/*Defines the radii of the outer border edge*/
+  grid-auto-rows: minmax(10px, auto);/*Specifies the size of implicitly created rows.*/
+}
+.wrapper2 {
+  display: grid;
+  grid-template-columns: repeat(51, 1fr);
+  border-radius: 5px;
+  grid-auto-rows: minmax(10px, auto);
+}
+//To see the grid used uncomment this
+.wrapper2 > div {
+  background-color: #ffd8a8;
+  border: 2px solid #ffa94d;
+  color: rgb(182, 182, 182);
+}
+
+.wrapper > div {
+  background-color: #ffd8a8;
+  border: 2px solid #ffa94d;
+  color: rgb(182, 182, 182);
+  
+} 
+
+.searchtxt{
+  position: relative;/*An element’s new position relative to its normal position.*/
+  top: 8px;/*Specifies how far an absolutely positioned box's top margin edge is offset below the top edge of the box's 'containing block'.*/
+  right: 0px;/*Specifies how far an absolutely positioned box's right margin edge is offset to the left of the right edge of the box's 'containing block'.*/
+  width: 190px;/*Specifies the width of the content area, padding area or border area (depending on 'box-sizing') of certain boxes.*/
+  height: 30px;/*Specifies the height of the content area, padding area or border area (depending on 'box-sizing') of certain boxes.*/
+}
+.searchbutton{
+  position: relative;
+  height: 24px;
+  width: 20px;
+  top: 12.5px;
+  margin-top: 2px;
+}
+//using for loop
+/*Indicates the desired height of glyphs from the font. For scalable fonts, the font-size is a scale factor applied to the EM unit of the font. (Note that certain glyphs may bleed outside their EM box.) For non-scalable fonts, the font-size is converted into absolute units and matched against the declared font-size of the font, using the same absolute coordinate space for both of the matched values.*/
+
+@for $i from 3 through 5 {
+  .font-#{$i} { font-size: 5px * $i; }
+}
+.font-lorem{
+  color: white;/*color of elements text*/
+}
+.font-lorem{
+  color: black;
+}
+.font-5
+{
+  color: black;
+  
+}
+.font-4
+{
+  
+  color: lightgray;
+}
+.font-inside{
+  color: rgba(75, 65, 66, 0.239)
+}
+//using while loop
+$i : 2;
+@while $i > -1 {
+  .font-#{$i} { font-size: 10px; }
+  $i: $i - 1;
+}
+
+.font-3{
+  
+  color: rgba(75, 65, 66, 0.239)
+}
+.font-0{
+  color: red;
+}
+.font-1{
+  color: rgb(243, 33, 243);
+}
+.padding-left{
+  padding-left: 500px;/*Shorthand property to set values the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative.*/
+}
+
+body {
+  background:#555;/*Shorthand property for setting most background properties at the same place in the style sheet.*/
+
+}
+.content {
+  margin-left: auto;/*Shorthand property to set values the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits..*/
+  margin-right: auto;/*Shorthand property to set values the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits..*/
+  margin-top: 56px;/*Shorthand property to set values the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits..*/
+  border-top: 100px;/*Shorthand property for setting border width, style and color*/
+  max-width: 1200px;/*Allows authors to constrain content width to a certain range.*/
+  background: white;/*Shorthand property for setting most background properties at the same place in the style sheet.*/
+  padding: 10px;/*Shorthand property to set values the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative.*/
+} 
+.table-style{
+  border-top: solid;
+  border-right: solid;
+  border-left: solid;
+  border-width: $border-width;
+  border-color: rgb(182, 182, 182);
+  width: 100%;
+}
+
+th{
+  font-size: 10px;/*Indicates the desired height of glyphs from the font. For scalable fonts, the font-size is a scale factor applied to the EM unit of the font. */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/*Specifies a prioritized list of font family names or generic family names.*/
+  font-weight: normal;/*Specifies weight of glyphs in the font, their degree of blackness or stroke thickness.*/
+  color: rgb(182, 182, 182);
+  border-bottom : solid;
+  border-color: rgb(182, 182, 182);
+  height: 29px;/*Specifies the height of the content area, padding area or border area (depending on 'box-sizing') of certain boxes.*/
+}
+td{
+  font-size: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(182, 182, 182);
+  border-bottom : solid;
+  border-width: $border-width;
+  border-color: rgb(182, 182, 182);
+  height: 24px;
+}
+
+.liststyle{
+  list-style-type: none;/*Used to construct the default contents of a list item’s marker*/
+}
+.us-flag{
+  background-image:url('images/us.svg');
+  background-repeat:no-repeat;
+}
+.singa-flag{
+  background-image:url('images/singa.svg');
+  background-repeat:no-repeat;
+}
+.malasia-flag{
+  background-image:url('images/malasia.svg');
+  background-repeat:no-repeat;
+}
+.indoasia-flag{
+  background-image:url('images/indoasia.svg');
+  background-repeat:no-repeat;
+}
+.china-flag{
+  background-image:url('images/china.svg');
+  background-repeat:no-repeat;
+}
+.euro-flag{
+  background-image:url('images/euro.svg');
+  background-repeat:no-repeat;
+}

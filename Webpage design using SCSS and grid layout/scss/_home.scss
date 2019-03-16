@@ -1,0 +1,229 @@
+//using mixin
+@mixin border-prop($t,$b,$r,$l,$w,$url,$bgcolor,$bdcolor){
+    border-top: $t;/*Shorthand property for setting border width, style and color*/
+    border-bottom: $b;
+    border-right: $r;
+    border-left: $l;
+    border-width: $w;
+    background-image: $url;/*Sets the background image(s) of an element*/
+    background-color: $bgcolor;/*Sets the background color of an element.*/
+    border-color: $bdcolor;/*The color of the border around all four edges of an element.*/
+}
+@mixin grid-prop($cstart,$cend,$rstart,$rend){ 
+    grid-column-start : $cstart;/*Determine a grid item’s size and location within the grid by contributing a line, a span, or nothing (automatic) to its grid placement.*/
+    grid-column-end: $cend;
+    grid-row-start : $rstart;/*Determine a grid item’s size and location within the grid by contributing a line, a span, or nothing (automatic) to its grid placement.*/
+    grid-row-end: $rend;
+    } 
+  
+  .one{
+    @include border-prop(0 ,solid ,solid,0,$border-width ,$pic1,nothing,$border-color);
+    @include grid-prop(1,7,1 ,7);
+    @extend %image-shared;
+  }
+  .two{
+    @include border-prop(0 ,solid ,0,0,$border-width ,nothing,nothing,$border-color);
+    @include grid-prop(7,21 ,1 ,1 );
+    
+  }
+  .three{
+    @include border-prop(0 ,solid ,solid,0,$border-width ,nothing,nothing,$border-color);
+    border-width: $border-width;
+    @include grid-prop(7,16 ,2 ,7 );
+   
+    
+  }
+  .four{
+    @include border-prop(0 ,solid ,0,0,$border-width ,nothing,nothing,$border-color);
+    @include grid-prop(16,21 ,2 ,7 );
+    
+  }
+  .five{
+    @include grid-prop(6,33 ,7 ,39 );
+    @include border-prop(0 ,0,0,0,$border-width ,$pic2,nothing,nothing);
+    @extend %image-shared;
+  }
+  
+  .six{
+    @include grid-prop(6,33 ,25 ,39 );
+    @include border-prop(0 ,0,0,0,0 ,0,$maintxt-bgcolor,nothing);
+
+  }
+  .seven{
+    @include border-prop(0 ,0,0,0,0 ,0,white,nothing);
+    @include grid-prop(24,30 ,20 ,23 );
+  }
+  .eight{
+    @include grid-prop(34,47 ,7 ,16 );
+  }
+  .nine{
+    @include border-prop(0 ,0,0,0,0 ,$pic3,nothing,nothing);
+    @include grid-prop(6,19 ,41 ,59 );
+    @extend %image-shared;
+  }
+  
+  .ten{
+    @include border-prop(0 ,0,0,0,0 ,$pic3,nothing,nothing);
+    @include grid-prop(20,33 ,41 ,59 );
+    @extend %image-shared;
+  }
+  .eleven{
+    @include border-prop(solid ,solid,solid,solid,$border-width ,nothing,nothing,$border-color);
+    @include grid-prop(34,47 ,19 ,63 );
+
+  }
+  .twelve{
+    @include grid-prop(20,33 ,59 ,74 );
+  }
+  .thirteen{
+    @include border-prop(0 ,0,0,0,0 ,nothing,white,nothing);
+    @include grid-prop(6,19 ,59 ,74 );
+    background-color: white;
+  }
+  .fourteen{
+    @include grid-prop(6,19 ,80 ,110 );
+  }
+  .fifteen{
+    @include grid-prop(20,33 ,80 ,110 );
+  }
+  .sixteen{
+    @include border-prop(solid ,solid,solid,solid,$border-width ,nothing,nothing,$border-color);
+    @include grid-prop(34,47 ,66 ,110 );
+  }
+  .seventeen{
+    @include border-prop(0 ,0,0,0,0 ,$pic3,nothing,nothing);
+    @include grid-prop(20,33 ,76 ,94 );
+    @extend %image-shared;
+  }
+  .eighteen{
+    @include border-prop(0 ,0,0,0,0 ,$pic3,nothing,nothing);
+    @include grid-prop(6,19 ,76 ,94 );
+    @extend %image-shared;
+  }
+  .nineteen{
+    @include grid-prop(6,19 ,94 ,109 );
+  }
+  .twenty{
+    @include grid-prop(20,33 ,94 ,109 );
+  }
+  .twentyone{
+    @include border-prop(solid ,solid,0,0,$border-width ,nothing,nothing,$border-color);
+    @include grid-prop(6,47 ,111 ,153 );
+  }
+  .twentytwo{
+    @include border-prop(0 ,0,0,0,0 ,$pic4,nothing,nothing);
+    @include grid-prop(6,19 ,116 ,137 );
+    @extend %image-shared;
+  }
+  .twentythree{
+    @include grid-prop(6,19 ,137 ,150 );
+  }
+  .twentyfour{
+    @include border-prop(0 ,0,0,0,0 ,$pic4,nothing,nothing);
+    @include grid-prop(20,33 ,116 ,137 );
+    @extend %image-shared;
+  }
+  .twentyfive{
+    @include border-prop(0 ,0,0,0,0 ,$pic4,nothing,nothing);
+    @include grid-prop(34,47 ,116 ,137 );
+    @extend %image-shared;
+  }
+  .twentysix{
+    @include grid-prop(20,33 ,137 ,150 );
+  }
+  .twentyseven{
+    @include grid-prop(34,47 ,137 ,150 );
+  }
+  
+  .twentyeight{
+    @include border-prop(0 ,0,0,0,0 ,nothing,white,nothing);
+    @include grid-prop(21,26 ,55 ,58 );
+  }
+  .twentynine{
+    @include border-prop(0 ,0,0,0,0 ,nothing,white,nothing);
+    @include grid-prop(7,12 ,55 ,58 );
+  }
+  .thirty{
+    @include border-prop(0 ,0,0,0,0 ,nothing,white,nothing);
+    @include grid-prop(7,12 ,90 ,93 );
+  }
+  .thirtyone{
+    @include border-prop(0 ,0,0,0,0 ,nothing,white,nothing);
+    @include grid-prop(21,26 ,90 ,93 );
+  }
+  .thirtytwo{
+    @include border-prop(0 ,solid,0,0,$border-width ,nothing,nothing,$border-color);
+    @include grid-prop(34,47 ,19 ,25 );
+  }
+  .thirtythree{
+    @include border-prop(0 ,0,0,0,0 ,$pic5,nothing,nothing);
+    @include grid-prop(35,40 ,26 ,35 );
+    @extend %image-shared;
+  }
+  .thirtyfour{
+    @include border-prop(0 ,0,0,0,0 ,$pic5,nothing,nothing);
+    @include grid-prop(35,40 ,37 ,46 );
+    @extend %image-shared;
+  }
+  .thirtyfive{
+    @include border-prop(0 ,0,0,0,0 ,$pic5,nothing,nothing);
+    @include grid-prop(35,40 ,48 ,57 );
+    @extend %image-shared;
+  }
+  .thirtysix{
+    @include border-prop(solid ,0,0,0,$border-width ,nothing,nothing,$border-color);
+    @include grid-prop(34,47 ,58 ,63 );
+  }
+  .thirtyseven{
+    @include grid-prop(40,47 ,26 ,35 );
+  }
+  .thirtyeight{
+    @include grid-prop(40,47 ,37 ,46 );
+  }
+  .thirtynine{
+    @include grid-prop(40,47 ,48 ,57 );
+  }
+  .forty{
+    @include border-prop(0,solid,0,0,$border-width ,nothing,nothing,$border-color);
+    @include grid-prop(34,47 ,66 ,72 );
+    
+  }
+  .fortyone{
+    @include border-prop(0 ,0,0,0,0 ,$pic5,nothing,nothing);
+    @include grid-prop(35,40 ,73 ,82 );
+    @extend %image-shared;
+  }
+  .fortytwo{
+    @include grid-prop(35,40 ,84 ,93 );
+    @include border-prop(0 ,0,0,0,0 ,$pic5,nothing,nothing);
+    @extend %image-shared;
+  }
+  .fortythree{
+    @include grid-prop(35,40 ,95 ,104 );
+    @include border-prop(0 ,0,0,0,0 ,$pic5,nothing,nothing);
+    @extend %image-shared;
+  }
+  .fortyfour{
+    @include grid-prop(34,47 ,105 ,110 );
+    border-top: solid;
+    border-width: $border-width;
+    border-color: rgb(182, 182, 182);
+  }
+  .fortyfive{
+    @include grid-prop(40,47 ,73 ,82 );
+  }
+  .fortysix{
+    @include grid-prop(40,47 ,84 ,93 );
+  }
+  .fortyseven{
+    @include grid-prop(40,47 ,95 ,104 );
+  }
+  .fortyeight{
+    @include border-prop(0 ,0,0,0,$border-width,nothing,$link-bgcolor,nothing);
+    @include grid-prop(1,52 ,165 ,175 );
+  }
+  .fortynine{
+    @include border-prop(0 ,0,0,0,0,$pic6,nothing,nothing);
+    @include grid-prop(1,52 ,175 ,187 );
+    @extend %image-shared;
+  }

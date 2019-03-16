@@ -1,0 +1,25 @@
+//variables
+$brand-color: purple;
+$border-width: 1px;
+$maintxt-bgcolor : rgba(235, 26, 60, 0.95);
+$border-color : rgb(182, 182, 182);
+$pic1 : url('images/pic1.png');
+$pic2 : url('images/large.jpg');
+$pic3 : url('images/4k-ultra-hd-image-L-M.jpg');
+$pic4 : url('images/truncate-141C5CA8A20585E6E76-thumb400.png');
+$pic5 : url('images/images.jpg');
+$pic6 : url('images/FoxitReader_7V94gYdVrT.png');
+$link-bgcolor : #262729;
+//inheritance
+%image-shared{
+  background-repeat:no-repeat;/*Specifies how background images are tiled after they have been sized and positioned.*/
+  display:inline-block;/*In combination with 'float' and 'position', determines the type of box or boxes that are generated for an element.*/
+}
+
+
+
+// $width: 5em;
+
+// #main {
+//   width: $width;
+// }

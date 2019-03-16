@@ -1,0 +1,36 @@
+$link-color:white;
+$link-hover:#00aedb;
+$link-vertical-padding:15px;      //Controls Menu top & bottom padding
+$link-horizontal-padding:20px;    //Contols Menu left & right padding
+$menu-background: #353535;        //Control Menu Color Scheme
+//Using nested selectors
+nav{
+    ul {
+        list-style-type: none;/*Used to construct the default contents of a list item’s marker*/
+        margin: 0;/*Shorthand property to set values the thickness of the margin area.*/
+        padding: 0;
+        overflow: hidden;/*Shorthand for setting 'overflow-x' and 'overflow-y'.*/
+        background-color: white;
+      }
+      li {
+        float: left;/*Specifies how a box should be floated.*/
+      }
+
+      a {
+        display: block;
+        color: black;
+        text-align: center;/*Describes how inline contents of a block are horizontally aligned if the contents do not completely fill the line box.*/
+        padding: 14px 10px;
+        text-decoration: none;/*Decorations applied to font used for an element's text.*/
+      }
+      a:hover:not(.active) {
+        background-color: green;
+      }
+}
+ 
+  
+  
+    
+   
+  
+  
