@@ -1,0 +1,1138 @@
+/* The css representing l29x - l64xclasses represents spacing used in the respectful lines*/
+/*used for drawing vertical line in the code*/
+.vertical-line1
+{
+    width: 1px; /* Line width */
+    background-color: black; /* Line color */
+    height: 100%; /* Override in-line if you want specific height. */
+    position:absolute;/*allows user to determine its position*/
+    top: 44px;
+    right: 126.5px;
+    height: 620px;
+}
+.vertical-line2
+{
+    width: 1px; /* Line width */
+    background-color: black; /* Line color */
+    height: 100%; /* Override in-line if you want specific height. */
+    position:absolute;/*allows user to determine its position*/
+    top: 627px;
+    right: 309.5px;
+    height: 36px;
+}
+.vertical-line3
+{
+    width: 1px; /* Line width */
+    background-color: black; /* Line color */
+    height: 100%; /* Override in-line if you want specific height. */
+    position:absolute;/*allows user to determine its position*/
+    top: 627px;
+    right: 270.1px;
+    height: 36px;
+}
+.l29
+{
+    padding-left:1330px;/*Shorthand property to set values the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative*/
+}
+.l32a
+{
+    padding-left:249px;
+}
+.l32b
+{
+    padding-left:17px;
+}
+.l32c
+{
+    padding-left:59px;
+}
+.l32d
+{
+    padding-left:20px;
+}
+.l33a
+{
+    padding-left:10px;
+}
+.l33b
+{
+    padding-left:101px;
+}
+.l33c
+{
+    padding-left:10px;
+}
+.l33d
+{
+    padding-left:19px;
+}
+.l33e
+{
+    padding-left:12px;
+}
+.l33f{
+    padding-left:10px;
+}
+.l33g{
+    padding-left:36px;
+}
+.l33h{
+    padding-left:16px;
+}
+.l34a
+{
+    padding-left:10px;
+}
+.l34b
+{
+    padding-left:107px;
+}
+.l34c
+{
+    padding-left:11.25px;
+}
+.l34d
+{
+    padding-left:13.5px;
+}
+.l34e
+{
+    padding-left:13px;
+}
+.l34f{
+    padding-left:8px;
+}
+.l34g{
+    padding-left:39.5px;
+}
+.l34h{
+    padding-left:16px;
+}
+
+.l35a
+{
+    padding-left:10px;
+}
+.l35b
+{
+    padding-left:116px;
+}
+.l35c
+{
+    padding-left:11px;
+}
+.l35d
+{
+    padding-left:1px;
+}
+.l35e
+{
+    padding-left:13px;
+}
+.l35f{
+    padding-left:13px;
+}
+.l35g{
+    padding-left:10px;
+}
+.l35h{
+    padding-left:39.5px;
+}
+.l35i{
+    padding-left:16px;
+}
+
+.l36a
+{
+    padding-left:10px;
+}
+.l36b
+{
+    padding-left:108px;
+}
+.l36c
+{
+    padding-left:11px;
+}
+.l36d
+{
+    padding-left:2.5px;
+}
+.l36e
+{
+    padding-left:13px;
+}
+.l36f{
+    padding-left:13px;
+}
+.l36g{
+    padding-left:10px;
+}
+.l36h{
+    padding-left:38.5px;
+}
+.l36i{
+    padding-left:16px;
+}
+
+.l37a
+{
+    padding-left:139.5px;
+}
+.l37b
+{
+    padding-left:110px;
+}
+.l37c
+{
+    padding-left:17px;
+}
+.l37d
+{
+    padding-left:2.5px;
+}
+.l37e
+{
+    padding-left:21px;
+}
+.l37f{
+    padding-left:41.5px;
+}
+.l37g{
+    padding-left:22px;
+}
+
+.l38a
+{
+    padding-left:139.5px;
+}
+.l38b
+{
+    padding-left:108px;
+}
+.l38c
+{
+    padding-left:11px;
+}
+.l38d
+{
+    padding-left:10px;
+}
+.l38e
+{
+    padding-left:22px;
+}
+
+.l39a
+{
+    padding-left:50px;
+}
+.l39b
+{
+    padding-left:20px;
+}
+.l39c
+{
+    padding-left:1px;
+}
+.l39d
+{
+    padding-left:17px;
+}
+.l39e
+{
+    padding-left:13.5px;
+}
+.l39f{
+    padding-left:45px;
+}
+.l39g{
+    padding-left:21px;
+}
+
+.l40a
+{
+    padding-left:70px;
+}
+.l40b
+{
+    padding-left:45px;
+}
+.l40c
+{
+    padding-left:17px;
+}
+.l40d
+{
+    padding-left:20.5px;
+}
+.l40e
+{
+    padding-left:45px;
+}
+.l40f{
+    padding-left:21px;
+}
+
+.l41a
+{
+    padding-left:79px;
+}
+.l41b
+{
+    padding-left:65px;
+}
+.l41c
+{
+    padding-left:9.7px;
+}
+.l41d
+{
+    padding-left:10px;
+}
+.l41e
+{
+    padding-left:40px;
+}
+.l41f{
+    padding-left:18px;
+}
+
+.l42a
+{
+    padding-left:70px;
+}
+.l42b
+{
+    padding-left:42px;
+}
+.l42c
+{
+    padding-left:50px;
+}
+.l42d
+{
+    padding-left:12px;
+}
+.l42e
+{
+    padding-left:12px;
+}
+.l42f{
+    padding-left:12px;
+}
+.l42g{
+    padding-left:12px;
+}
+
+.l43a
+{
+    padding-left:79px;
+}
+.l43b
+{
+    padding-left:117px;
+}
+.l43c
+{
+    padding-left:20px;
+}
+.l43d
+{
+    padding-left:5px;
+}
+.l43e
+{
+    padding-left:18px;
+}
+
+.l44a
+{
+    padding-left:79px;
+}
+.l44b
+{
+    padding-left:123px;
+}
+.l44c
+{
+    padding-left:49.75px;
+}
+.l44d
+{
+    padding-left:12px;
+}
+.l44e
+{
+    padding-left:12px;
+}
+.l44f
+{
+    padding-left:12px;
+}
+.l44g
+{
+    padding-left:19.5px;
+}
+.l44h
+{
+    padding-left:4px;
+}
+.l44i
+{
+    padding-left:17px;
+}
+
+.l45a
+{
+    padding-left:70px;
+}
+.l45b
+{
+    padding-left:64px;
+}
+.l45c
+{
+    padding-left:11px;
+}
+.l45d
+{
+    padding-left:9.1px;
+}
+.l45e
+{
+    padding-left:41px;
+}
+.l45f
+{
+    padding-left:17px;
+}
+
+.l46a
+{
+    padding-left:79px;
+}
+.l46b
+{
+    padding-left:123px;
+}
+.l46c
+{
+    padding-left:11px;
+}
+.l46d
+{
+    padding-left:13.5px;
+}
+.l46e
+{
+    padding-left:39.5px;
+}
+.l46f
+{
+    padding-left:18px;
+}
+
+.l47a
+{
+    padding-left:70px;
+}
+.l47b
+{
+    padding-left:89px;
+}
+.l47c
+{
+    padding-left:10px;
+}
+.l47d
+{
+    padding-left:19px;
+}
+.l47e
+{
+    padding-left:39.5px;
+}
+.l47f
+{
+    padding-left:18px;
+}
+
+.l48a
+{
+    padding-left:79px;
+}
+.l48b
+{
+    padding-left:90px;
+}
+.l48c
+{
+    padding-left:11px;
+}
+.l48d
+{
+    padding-left:14.5px;
+}
+.l48e
+{
+    padding-left:40px;
+}
+.l48f
+{
+    padding-left:17px;
+}
+
+.l49a
+{
+    padding-left:79px;
+}
+.l49b
+{
+    padding-left:60.5px;
+}
+.l49c
+{
+    padding-left:11px;
+}
+.l49d
+{
+    padding-left:25px;
+}
+.l49e
+{
+    padding-left:25px;
+}
+.l49f
+{
+    padding-left:25px;
+}
+.l49g
+{
+    padding-left:25px;
+}
+.l49h
+{
+    padding-left:25px;
+}
+.l49i
+{
+    padding-left:10.5px;
+}
+
+.l50a
+{
+    padding-left:79px;
+}
+.l50b
+{
+    padding-left:114px;
+}
+.l50c
+{
+    padding-left:25px;
+}
+.l50d
+{
+    padding-left:6px;
+}
+.l50e
+{
+    padding-left:40px;
+}
+.l50f
+{
+    padding-left:16.5px;
+}
+
+.l51a
+{
+    padding-left:248px;
+}
+.l51b
+{
+    padding-left:10px;
+}
+.l51c
+{
+    padding-left:3.5px;
+}
+.l51d
+{
+    padding-left:35.5px;
+}
+.l51e
+{
+    padding-left:16px;
+}
+
+.l53
+{
+    padding-left: 450px;
+}
+
+.l54a
+{
+    padding-left:250px;
+}
+.l54b
+{
+    padding-left:9px;
+}
+.l54c
+{
+    padding-left:14px;
+}
+.l54d
+{
+    padding-left:36.5px;
+}
+.l54e
+{
+    padding-left:16px;
+}
+
+.l55a
+{
+    padding-left:70px;
+}
+.l55b
+{
+    padding-left:102px;
+}
+.l55c
+{
+    padding-left:7px;
+}
+.l55d
+{
+    padding-left:3.5px;
+}
+.l55e
+{
+    padding-left:2px;
+}
+.l55f
+{
+    position: absolute;
+
+    padding-left:10px;
+}
+
+.l56a
+{
+    padding-left:79px;
+}
+.l56b
+{
+    padding-left:120px;
+}
+.l56c
+{
+    padding-left:10px;
+}
+.l56d
+{
+    padding-left:25px;
+}
+.l56e
+{
+    padding-left:25px;
+}
+.l56f
+{
+    padding-left:15px;
+}
+.l56g
+{
+    padding-left:25px;
+}
+
+.l57a
+{
+    padding-left:79px;
+}
+.l57b
+{
+    padding-left:113px;
+}
+.l57c
+{
+    padding-left:10px;
+}
+.l57d
+{
+    padding-left:23px;
+}
+
+.l58a
+{
+    padding-left:250px;
+}
+.l58b
+{
+    padding-left:7px;
+}
+.l58c
+{
+    padding-left:3.5px;
+}
+
+.l60
+{
+    padding-left:250px;
+}
+
+.l61a
+{
+    padding-left:70px;
+}
+.l61b
+{
+    padding-left:82.4px;
+}
+.l61c
+{
+    padding-left:11px;
+}
+.l61d
+{
+    padding-left:9px;
+}
+.l61e
+{
+    padding-left:3.5px;
+}
+.l61f
+{
+    padding-left:16px;
+}
+.l61g
+{
+    padding-left:15.5px;
+}
+
+.l62a
+{
+    padding-left:252px;
+}
+.l62b
+{
+    padding-left:12x;
+}
+.l62c
+{
+    padding-left:19px;
+}
+
+.l64{
+    padding-left:960px;
+}
+/*Rectangle 1-14 is represented by classes rect 1-14*/
+.rect1
+{
+    width:170px;
+    height:280px;
+    border:1px solid #000;
+    border-radius: 10px;
+    position:absolute;
+    left:50px;
+    top:190px;
+}
+
+.rect2
+{
+    z-index: -1;
+    width:999.5px;
+    height:519px;
+    border: none;
+    position:absolute;
+    left:250px;
+    top:34px;
+    background-color: #DCFFFB;
+}
+.rect3
+{
+    z-index: -1;
+    width:958px;
+    height:138px;
+    border:none solid #000;
+    position:absolute;
+    left:250px; 
+    top:553px; 
+    background-color: #DCFFFB;
+}
+.rect4
+{
+    z-index: -1;
+    width:1514px;
+    height:33px;
+    border:none;
+    position:absolute;
+    left:0px;
+    top:0px;
+    background-color: #DCFFFB;
+}
+.rect5
+{
+    z-index: -1;
+    width:1514px;
+    height:73px;
+    border:none;
+    position:absolute;
+    left:0px;
+    top:695px;
+    background-color: #DCFFFB;
+}
+.rect6
+{
+    width:38px;
+    height:75px;
+    border:1px solid #000;
+    position:absolute;
+    left:1209px;
+    top:552px;
+    background-color: rgb(192, 192, 192);
+}
+.rect7
+{
+    width:232px;
+    height:27px;
+    border:1px solid #000;
+    position:absolute;
+    left:1209px;
+    top:663px;
+    background-color: rgb(192, 192, 192);
+}
+.rect8
+{
+    width:39.8px;
+    height:517px;
+    border:1px solid #000;
+    position:absolute;
+    left:1209px;
+    top:34px;
+}
+.rect9
+{
+    width:74px;
+    height:656px;
+    border:none #000;
+    position:absolute;
+    left:1445px;
+    top:34px;
+    background-color: #DCFFFB;
+}
+.rect10
+{
+    width:37px;
+    height:20px;
+    border:1px  #000;
+    position:absolute;
+    left:1210px;
+    top:483px;
+    background-color: #DCFFFB;
+}
+.rect11
+{
+    width:194px;
+    height:19px;
+    border:1px  #000;
+    position:absolute;
+    left:1249px;
+    top:487px;
+    background-color: white;
+}
+.rect12
+{
+    z-index: -1;
+    width:38px;
+    height:32px;
+    border:none;
+    position:absolute;
+    left:1209.5px;
+    top:630px;
+    background-color: #DCFFFB;
+}
+.rect13
+{
+    width:40px;
+    height:23px;
+    border:none;
+    position:absolute;
+    left:205px;
+    top:197px;
+    background-color: white;
+}
+.rect14
+{
+    z-index: -1;
+    width:20px;
+    height:23px;
+    border:1px  #000;
+    position:absolute;
+    left:250px;
+    top:197px;
+    background-color:white;
+}
+/*Represents horizontal line classes hr-hr22*/
+.hr {
+    
+    position: absolute;
+    top: 65.9px;
+    right: 130px;
+    width: 180px;
+    border: none;
+    height: 0.5px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr2 {
+    position: absolute;
+    top: 88.5px;
+    right: 130px;
+    width: 180px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr3 {
+    position: absolute;
+    top: 109.5px;
+    right: 130px;
+    width: 180px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr4 {
+    position: absolute;
+    top: 131.6px;
+    right: 130px;
+    width: 180px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr5 {
+    position: absolute;
+    top: 153.2px;
+    right: 130px;
+    width: 180px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr6 {
+    position: absolute;
+    top: 175.8px;
+    right: 130px;
+    width: 180px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr7 {
+    position: absolute;
+    top: 198px;
+    right: 130px;
+    width: 180px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr8 {
+    position: absolute;
+    top: 219.8px;
+    right: 130px;
+    width: 180px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr9 {
+    position: absolute;
+    top: 241.5px;
+    right: 130px;
+    width: 180px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr10 {
+    position: absolute;
+    top: 263.3px;
+    right: 130px;
+    width: 180px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr11 {
+    position: absolute;
+    top: 310.1px;
+    right: 75px;
+    width: 235px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr12 {
+    position: absolute;
+    top: 332.5px;
+    right: 130px;
+    width: 180px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr12 {
+    position: absolute;
+    top: 332.5px;
+    right: 130px;
+    width: 180px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr13 {
+    position: absolute;
+    top: 354px;
+    right: 130px;
+    width: 180px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr14 {
+    position: absolute;
+    top: 375.6px;
+    right: 130px;
+    width: 180px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr15 {
+    position: absolute;
+    top: 398.9px;
+    right: 130px;
+    width: 180px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr16 {
+    position: absolute;
+    top: 419.7px;
+    right: 130px;
+    width: 180px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr17 {
+    position: absolute;
+    top: 463.9px;
+    right: 130px;
+    width: 180px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr18 {
+    position: absolute;
+    top: 486px;
+    right: 130px;
+    width: 180px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr19 {
+    position: absolute;
+    top: 526px;
+    right: 130px;
+    width: 180px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr20 {
+    position: absolute;
+    top: 549.5px;
+    right: 75px;
+    width: 235px;
+    border: none;
+    height: 2.1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr21 {
+    position: absolute;
+    top: 196px;
+    right: 1249px;
+    width: 49px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr22 {
+    position: absolute;
+    top: 219px;
+    right: 1249px;
+    width: 49px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+/*making input gray*/
+input
+{
+    border: 0.1;
+    background: #F1F4FF;
+}

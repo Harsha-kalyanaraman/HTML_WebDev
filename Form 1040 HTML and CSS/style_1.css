@@ -1,0 +1,912 @@
+/*Used for styling different attributes in the form*/
+.Dept
+{
+    position: absolute;
+    top: 10px;/*Specifies how far an absolutely positioned box's top margin edge is offset below the top edge of the box's 'containing block'.*/
+    right:30px;/*Specifies how far an absolutely positioned box's right margin edge is offset to the left of the right edge of the box's 'containing block'.*/
+    width: 1360px;/*Specifies the width of the content area, padding area or border area (depending on 'box-sizing') of certain boxes.*/
+    height: 28px;/*Specifies the height of the content area, padding area or border area (depending on 'box-sizing') of certain boxes.*/
+    background-color: #DCFFFB;/*Sets the background color of an element.*/
+    display: inline-block;/*In combination with 'float' and 'position', determines the type of box or boxes that are generated for an element.*/
+}
+.us
+{
+    position: absolute;
+    top: 35px;
+    right:940px;
+    width: 450px;
+    height: 27px;
+    background-color: #DCFFFB;
+    display: inline-block;
+    
+}
+.year
+{
+    position: absolute;
+    top: 15px;
+    right:507px;
+    width: 450px;
+    height: 37px;
+    background-color: #DCFFFB;
+    display: inline-block;
+}
+.omb
+{
+    position: absolute;
+    top: 38px;
+    right: 390px;
+    width: 450px;
+    height: 7px;
+    background-color: #DCFFFB;
+    display: inline-block;   
+}
+.irs
+{
+    position: absolute;
+    top: 38px;
+    right: 30px;
+    width: 610px;
+    height: 24px;
+    background-color: #DCFFFB;
+    display: inline-block;   
+}
+.vertical-line1{ 
+    width: 0px; /* Use only border style */
+    height: 100%;
+    position:absolute;/*allows user to determine its position*/
+    height: 60px; 
+    top: 5px;
+    left: 570px;
+    border: 0.5px inset; /* This is default border style for <hr> tag */
+}
+.vertical-line2{ 
+    width: 0px; /* Use only border style */
+    height: 100%;
+    position:absolute;/*allows user to determine its position*/
+    height: 60px; 
+    top: 5px;
+    left: 680px;
+    border: 0.5px inset; /* This is default border style for <hr> tag */
+}
+.vertical-line3{ 
+    width: 0px; /* Use only border style */
+    height: 100%;
+    position:absolute;/*allows user to determine its position*/
+    height: 60px; 
+    top: 5px;
+    left: 870px;
+    border: 0.5px inset; /* This is default border style for <hr> tag */
+}
+.vertical-line4{ 
+    width: 0px; /* Use only border style */
+    height: 100%;
+    position:absolute;/*allows user to determine its position*/
+    height: 285px; 
+    top: 63px;
+    left: 1100px;
+    border: 0.5px inset; /* This is default border style for <hr> tag */
+}
+.vertical-line12{ 
+    width: 0px; /* Use only border style */
+    height: 100%;
+    position:absolute;/*allows user to determine its position*/
+    height: 50px; 
+    top: 242px;
+    left: 1000px;
+    border: 0.5px inset; /* This is default border style for <hr> tag */
+}
+.vertical-line13{ 
+    width: 0px; /* Use only border style */
+    height: 100%;
+    position:absolute;/*allows user to determine its position*/
+    height: 36px; 
+    top: 164px;
+    left: 655px;
+    border: 0.5px inset; /* This is default border style for <hr> tag */
+}
+.vertical-line14{ 
+    width: 0px; /* Use only border style */
+    height: 100%;
+    position:absolute;/*allows user to determine its position*/
+    height: 36px; 
+    top: 92px;
+    left: 590px;
+    border: 0.5px inset; /* This is default border style for <hr> tag */
+}
+.hr {
+    border: none;
+    height: 2px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr2 {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+.form
+{
+    transform: rotate(270deg);
+    display: inline-block;
+
+}
+.form1040
+{
+    transform: rotate(0deg);
+    display: inline-block;
+    background-color: white;
+}
+
+
+.fil
+{
+    position: absolute;
+    top: 66px;
+    right:360px;
+    width: 1160px;
+    height: 25px;
+    background-color: #DCFFFB;
+    display: inline-block;
+}
+.fil2
+{
+    position: absolute;
+    top: 66px;
+    right:35px;
+    width: 400px;
+    height: 25px;
+    background-color: #F1F4FF;
+    display: inline-block;
+    
+}
+.fil3
+{
+    position: absolute;
+    top: 5px;
+    right:1390px;
+    width: 130px;
+    height: 55px;
+    background-color: white;
+    display: inline-block;
+}
+.urfnln
+{
+    position: absolute;
+    top: 95px;
+    right:360px;
+    width: 1160px;
+    height: 32px;
+    background-color: #DCFFFB;
+    display: inline-block;
+}
+.urfnlntxt
+{
+    position: absolute;
+    top: 95px;
+    right:360px;
+    width: 1160px;
+    height: 100px;
+    background-color: #DCFFFB;
+    display: inline-block;
+}
+.urssn
+{
+    position: absolute;
+    top: 94px;
+    right:-215px;
+    width: 650px;
+    height: 32px;
+    background-color: #DCFFFB;
+    display: inline-block;
+}
+.textboxbg
+{
+    background-color: #F1F4FF;
+}
+.backgroundbg1
+{
+    background-color: white;
+    height: 30px;
+    width: 180px;
+    display: inline-block;
+}
+.backgroundbg2
+{
+    background-color: white;
+    height: 30px;
+    width: 80px;
+    display: inline-block;
+}
+.backgroundbg3
+{
+    background-color: white;
+    height: 30px;
+    width: 202px;
+    display: inline-block;
+}
+.std
+{
+    position: absolute;
+    top: 130px;
+    right:30px;
+    width: 1490px;
+    height: 33px;
+    background-color: #DCFFFB;
+    display: inline-block;
+}
+.spsfnln
+{
+    position: absolute;
+    top: 166px;
+    right:360px;
+    width: 1160px;
+    height: 32px;
+    background-color: #DCFFFB;
+    display: inline-block;
+}
+.spsssn
+{
+    position: absolute;
+    top: 166px;
+    right:38px;
+    width: 395px;
+    height: 32px;
+    background-color: #DCFFFB;
+    display: inline-block;
+}
+.backgroundbg4
+{
+    background-color: white;
+    height: 30px;
+    width: 300px;
+    display: inline-block;
+}
+
+.backgroundbg5
+{
+    background-color: white;
+    height: 30px;
+    width: 227px;
+    display: inline-block;
+}
+.ssd
+{
+    position: absolute;
+    top: 202px;
+    right:30px;
+    width: 1490px;
+    height: 40px;
+    background-color: #DCFFFB;
+    display: inline-block;
+}
+.fyhc
+{
+    position: absolute;
+    top: 0px;
+    right: 35px;
+    width: 369px;
+    height: 39px;
+    background-color: #DCFFFB;
+    display: inline-block;
+}
+.ha
+{
+    position: absolute;
+    top: 243px;
+    right: 435px;
+    width: 1084px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+}
+.aptno
+{
+    position: absolute;
+    top: 243px;
+    right: 440px;
+    height: 39px;
+    display: inline-block;
+}
+.pec
+{
+    position: absolute;
+    top: 243px;
+    right: 150px;
+    display: inline-block;
+}
+.hatxt
+{
+    position: absolute;
+    top: 264px;
+    right: 540px;
+    width: px;
+    height: 39px;
+    display: inline-block;
+}
+.aptspace
+{
+    position: absolute;
+    top: 265px;
+    right: 437px;
+    display: inline-block;
+}
+.uandsps
+{
+    position: absolute; 
+    top: 265px;
+    right: 260px;
+    display: inline-block;
+}
+.city{
+    
+    position: absolute;
+    top: 294px;
+    right: 440px;
+    width: 1079px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+}
+.if{
+    position: absolute;
+    top: 290px;
+    right: 60px;
+    height: 49px;
+    display: inline-block;
+}
+.citytxt{
+    position: absolute;
+    top: 320px;
+    right: 435px;
+    height: px;
+    display: inline-block;
+
+}
+.bgcolor
+{
+    background-color: #DCFFFB;
+}
+.paddingleft1
+{
+    padding-left:340px;
+}
+.paddingleft2
+{
+    padding-left:50px;
+}
+.paddingleft3
+{
+    padding-left:30px;
+}
+
+.paddingleft4
+{
+    
+    display: inline-block;
+    padding-left:70px;
+}
+.paddingleft5
+{
+    
+    display: inline-block;
+    padding-left:40px;
+}
+.ys
+{
+    position: absolute;
+    top: 520px;
+    right: 855px;
+    width: 495px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+}
+.ystxt
+{
+    position: absolute;
+    top: 540px;
+    right: 855px;
+    width: 495px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+}
+.date1
+{
+    position: absolute;
+    top: 520px;
+    right: 710px;
+    width: 139px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+}
+.date1txt
+{
+    position: absolute;
+    top: 540px;
+    right: 710px;
+    width: 139px;
+    height: 17px;
+    background-color: white;
+    display: inline-block;
+}
+
+.uroccu
+{
+    position: absolute;
+    top: 520px;
+    right: 479px;
+    width: 226px;
+    height: 19px;
+    background-color: white;
+    display: inline-block;
+}
+.uroccutxt
+{
+    position: absolute;
+    top: 540px;
+    right: 479px;
+    width: 226px;
+    height: 18px;
+    background-color: white;
+    display: inline-block;
+}
+.irs1
+{
+    position: absolute;
+    top: 520px;
+    right: 22px;
+    width: 450px;
+    height: 17px;
+    background-color: white;
+    display: inline-block;
+}
+.irs1txt
+{
+    position: absolute;
+    top: 536px;
+    right: 22px;
+    width: 450px;
+    height: 17px;
+    background-color: white;
+    display: inline-block;
+}
+.borderlesstext
+{
+    border: none;
+    background: white;
+}
+.borderlessgraytext
+{
+    border: none;
+    background: #F1F4FF;
+}
+.bb
+{
+    border-style: solid;
+    border-width: thin;
+    background-color: #F1F4FF;
+}
+.blank1
+{
+    position: absolute;
+    top: 535px;
+    right: 22px;
+    width: 226px;
+    height: 21px;
+    background-color: white;
+    display: inline-block; 
+}
+.ss
+{
+    position: absolute;
+    top: 558px;
+    right: 855px;
+    width: 495px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+}
+.sstxt
+{
+    position: absolute;
+    top: 576px;
+    right: 855px;
+    width: 495px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+}
+.date2
+{
+    position: absolute;
+    top: 558px;
+    right: 710px;
+    width: 139px;
+    height: 17px;
+    background-color: white;
+    display: inline-block;
+}
+.date2txt
+{
+    position: absolute;
+    top: 576px;
+    right: 710px;
+    width: 139px;
+    height: 17px;
+    background-color: white;
+    display: inline-block;
+}
+.spsoccu
+{
+    position: absolute;
+    top: 558px;
+    right: 479px;
+    width: 226px;
+    height: 18px;
+    background-color: white;
+    display: inline-block;
+}
+.spsoccutxt
+{
+    position: absolute;
+    top: 576px;
+    right: 479px;
+    width: 226px;
+    height: 18px;
+    background-color: white;
+    display: inline-block;
+}
+.irs2
+{
+    position: absolute;
+    top: 558px;
+    right: 22px;
+    width: 450px;
+    height: 17px;
+    background-color: white;
+    display: inline-block;
+}
+.irs2txt
+{
+    position: absolute;
+    top: 574px;
+    right: 22px;
+    width: 450px;
+    height: 17px;
+    background-color: white;
+    display: inline-block;
+}
+.paddingleft6
+{
+    
+    display: inline-block;
+    padding-left:70px;
+}
+.bocu
+{
+    border: none;
+    background: white;
+    background-color: #F1F4FF;
+}
+.blank2
+{
+    position: absolute;
+    top: 575px;
+    right: 20px;
+    width: 230px;
+    height: 21px;
+    background-color: white;
+    display: inline-block; 
+}
+.triangle-right {
+	position: absolute;
+	top: 530px;
+    right: 1350px;
+	width: 5px;
+	height: 0px;
+	border-top: 25px solid transparent;
+	border-left: 18px solid #000000;
+	border-bottom: 25px solid transparent;
+}
+.hr3 {
+    position: absolute;
+    top: 557px;
+    right: 20px;
+    width: 1330px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr4 {
+    position: absolute;
+    top: 595px;
+    right: 20px;
+    width: 1510px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr5 {
+    position: absolute;
+    top: 652px;
+    right: 367px;
+    width: 984px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.hr6 {
+    position: absolute;
+    top: 675px;
+    right: 20px;
+    width: 1330px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+
+.vertical-line5{ 
+    width: 2px; /* Use only border style */
+    height: 100%;
+    position:absolute;/*allows user to determine its position*/
+    height: 90px; 
+    top: 506px;
+    left: 683px;
+    border: 0.5px inset; /* This is default border style for <hr> tag */
+    background-color: #333;
+}
+.vertical-line6{ 
+    width: 2px; /* Use only border style */
+    height: 100%;
+    position:absolute;/*allows user to determine its position*/
+    height: 90px; 
+    top: 506px;
+    left: 825px;
+    border: 0.5px inset; /* This is default border style for <hr> tag */
+    background-color: #333;
+}
+.vertical-line7{ 
+    width: 2px; /* Use only border style */
+    height: 100%;
+    position:absolute;/*allows user to determine its position*/
+    height: 90px; 
+    top: 506px;
+    left: 1059px;
+    border: 0.5px inset; /* This is default border style for <hr> tag */
+    background-color: #333;
+}
+.vertical-line8{ 
+    width: 2px; /* Use only border style */
+    height: 100%;
+    position:absolute;/*allows user to determine its position*/
+    height: 58px; 
+    top: 595px;
+    left: 480px;
+    border: 0.5px inset; /* This is default border style for <hr> tag */
+    background-color: #333;
+}
+.vertical-line9{ 
+    width: 2px; /* Use only border style */
+    height: 100%;
+    position:absolute;/*allows user to determine its position*/
+    height: 79px; 
+    top: 595px;
+    left: 909px;
+    border: 0.5px inset; /* This is default border style for <hr> tag */
+    background-color: #333;
+}
+.vertical-line10{ 
+    width: 2px; /* Use only border style */
+    height: 100%;
+    position:absolute;/*allows user to determine its position*/
+    height: 58px; 
+    top: 595px;
+    left: 1039px;
+    border: 0.5px inset; /* This is default border style for <hr> tag */
+    background-color: #333;
+}
+
+.vertical-line11{ 
+    width: 2px; /* Use only border style */
+    height: 100%;
+    position:absolute;/*allows user to determine its position*/
+    height: 79px; 
+    top: 595px;
+    left: 1167px;
+    border: 0.5px inset; /* This is default border style for <hr> tag */
+    background-color: #333;
+}
+.prname
+{
+    position: absolute;
+    top: 605px;
+    right: 1055px;
+    width: 295px;
+    height: 30px;
+    background-color: white;
+    display: inline-block;
+}
+.prsig
+{
+    position: absolute;
+    top: 605px;
+    right: 626px;
+    width: 425px;
+    height: 30px;
+    background-color: white;
+    display: inline-block;
+}
+.ptin
+{
+    position: absolute;
+    top: 605px;
+    right: 497px;
+    width: 125px;
+    height: 30px;
+    background-color: white;
+    display: inline-block;
+}
+.fein
+{
+    position: absolute;
+    top: 605px;
+    right: 367px;
+    width: 125px;
+    height: 30px;
+    background-color: white;
+    display: inline-block;
+}
+.chkif
+{
+    position: absolute;
+    top: 605px;
+    right: 22px;
+    width: 342px;
+    height: 30px;
+    background-color: white;
+    display: inline-block;
+}
+.prnametxt
+{
+    position: absolute;
+    top: 630px;
+    right: 1055px;
+    width: 295px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+}
+.prsigtxt
+{
+    position: absolute;
+    top: 630px;
+    right: 626px;
+    width: 425px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+    
+}
+.ptintxt
+{
+    position: absolute;
+    top: 630px;
+    right: 497px;
+    width: 125px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+}
+.feintxt
+{
+    position: absolute;
+    top: 630px;
+    right: 367px;
+    width: 125px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+}
+.chkifchk1
+{
+    position: absolute;
+    top: 630px;
+    right: 22px;
+    width: 342px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+}
+.firmname
+{
+    position: absolute;
+    top: 653px;
+    right: 1230px;
+    width: 120px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+}
+.firmnametxt
+{
+    position: absolute;
+    top: 653px;
+    right: 1140px;
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+}
+.fphno
+{
+    position: absolute;
+    top: 653px;
+    right: 547px;
+    width: 75px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+}
+.fphnotxt
+{
+    position: absolute;
+    top: 653px;
+    right: 470px;
+    width: 75px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+}
+.chkifchk2
+{
+    position: absolute;
+    top: 653px;
+    right: 22px;
+    width: 342px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+}
+.firmadd
+{
+    position: absolute;
+    top: 680px;
+    right: 1230px;
+    width: 120px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+}
+.firmaddtxt
+{
+    position: absolute;
+    top: 680px;
+    right: 1110px;
+    width: 120px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+}
+.paddingleft6
+{
+    padding-left:250px;
+}
+.paddingleft7
+{
+    padding-left:360px;
+}

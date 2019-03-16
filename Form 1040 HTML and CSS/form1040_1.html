@@ -1,0 +1,256 @@
+<!--The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in. -->
+<!DOCTYPE html>
+<!-- <p>The html element represents the root of an HTML document.</p> -->
+<html>
+    <head><!-- The head element represents a collection of metadata for the Document.</p> -->
+        <title>U.S Individual Income and Tax return</title><!-- The title element represents the document's title or name. </p> -->
+        <!-- The style element allows authors to embed style information in their documents. -->
+        <link  rel ="stylesheet"  href = "style_1.css" characterset="utf-8"><!--The link element allows authors to link their document to other resources.-->
+    </head>
+    <!--The body element represents the content of the document. -->
+    <body class="bgcolor" >
+        <div><!--The div element has no special meaning at all. It represents its children. It can be used with the class, lang, and title attributes to mark up semantics common to a group of consecutive elements.-->
+            <!--The span element doesn't mean anything on its own, but can be useful when used together with the global attributes, e.g. class, lang, or dir. It represents its children.-->
+            <span class="fil3"><font size = "11"></font></span>
+            <span>
+                <span class="form"><font>form</font></span>
+                <span class="form1040"><font size = "10"><b>1040</b></font></span>
+            </span>
+            <span class="Dept"><font size="1"><b>Department of the Treasury—Internal Revenue Service&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(99)</b></font></span>
+            <span class="us"><font size="5"><b>U.S. Individual Income Tax Return</b></font></span>
+            <span class="year"><font size="7">20<b>18</b></font></span>
+            <span class="omb"><font size="3"><b>OMB No. 1545-0074</b></font></span>
+            <span class="irs"><font size="3"><b>IRS Use Only—Do not write or staple in this space. </b></font></span>
+            <div class= "hr"></div>
+            <div class="vertical-line1"></div>
+            <div class="vertical-line2"></div>
+            <div class="vertical-line3"></div>
+        </div>
+        <!--The form element represents a collection of form-associated elements, some of which can represent editable values that can be submitted to a server for processing.-->
+        <form action="/action_page.php" method="get" id="nameform">
+            <div>
+                <span class="fil">
+                    Filing status:<!--For the query a series checkbox inputs are created-->
+                    <!--The input element represents a typed data field, usually with a form control to allow the user to edit the data.-->
+                    <input type="checkbox" name="Single" value="Single" > Single&emsp;<!--emsp: empty space-->
+                    <input type="checkbox" name="Married filing jointly" value="Married filing jointly"> Married filing jointly&emsp;
+                    <input type="checkbox" name="Married filing separately" value="Married filing separately"> Married filing separately&emsp;
+                    <input type="checkbox" name="Head of household" value="Head of household"> Head of household&emsp;
+                    <input type="checkbox" name="Qualifying widow(er)" value="Qualifying widow(er)" checked> Qualifying widow(er)&emsp;
+                </span>
+                <span class="fil2"> </span><br><hr>
+            </div>
+            <div>
+                <span class="urfnln">
+                    <!--For all names input is set as text with a validation of accepting only alphabets by using required attribute-->
+                    <span class="backgroundbg1">Your first name and initial :</span><span> <input class="borderlessgraytext" type="text" name="Your first name and initial" required pattern="[A-Za-z]+" size="55" ></span> &emsp;
+                    <span class="backgroundbg2">Last name : </span><input class="borderlessgraytext" type="text" name="Last name"required pattern="[A-Za-z]+"size="55">&emsp;
+                </span>
+                <!--For SSN the input is set as text which accepts only 9 numbers as input in a certain format such as xxx-xx-xxxx -->
+                <!--<b> : The b element represents a span of text to which attention is being drawn for utilitarian purposes without conveying any extra importance-->
+                <span class="urssn"> <span class="backgroundbg3"><b>Your social security number : </b></span><input class="borderlessgraytext" type="text" name="Your social security number" required minlength="11" maxlength="11" required pattern="[0-9]{3}[ -][0-9]{2}[ -][0-9]{4}"value="xxx-xx-xxxx">
+                </span><br><hr>
+            </div>
+            <div>
+                <span class="std">
+                    Your standard deduction:<!--For the query a series checkbox inputs are created-->
+                    <input type="checkbox" name="Someone can claim you as a dependent" value="Someone can claim you as a dependent"> Someone can claim you as a dependent&emsp;
+                    <input type="checkbox" name="You were born before January 2, 1954" value="You were born before January 2, 1954"> You were born before January 2, 1954&emsp;
+                    <input type="checkbox" name="You are blind" value="You are blind" checked> You are blind&emsp;
+                </span><br><hr>
+            </div>
+            <div>
+                <span class="spsfnln">
+                    <!--For all names input is set as text with a validation of accepting only alphabets by using required attribute-->
+                    <span class="backgroundbg4">If joint return, spouse's first name and initial :</span> <input class="borderlessgraytext" type="text" name="spouse's first name and initial"required pattern="[A-Za-z]+" size="46"> &emsp;
+                    <span class="backgroundbg2">Last name : </span><input class="borderlessgraytext" type="text" name="Last name"required pattern="[A-Za-z]+" size="46" >&emsp;
+                </span>
+                <span class="spsssn">
+                    <!--<strong> : The strong element represents strong importance, seriousness, or urgency for its contents.-->
+                    <!--For SSN the input is set as text which accepts only 9 numbers as input in a certain format such as xxx-xx-xxxx -->
+                    <span class="backgroundbg5"><strong>Spouse’s social security number : </strong> </span> <input class="borderlessgraytext" type="text" name="Spouse’s social security number" required minlength="11" maxlength="11" required pattern="[0-9]{3}[ -][0-9]{2}[ -][0-9]{4}"value="xxx-xx-xxxx">
+                </span><br><hr>
+            </div>
+            <div>
+                <span class="ssd">
+                    Spouse standard deduction:<!--For the query a series checkbox inputs are created-->
+                    <input type="checkbox" name="Someone can claim your spouse as a dependent" value="Someone can claim your spouse as a dependent"> Someone can claim your spouse as a dependent&emsp;
+                    <input type="checkbox" name="Spouse was born before January 2, 1954" value="Spouse was born before January 2, 1954"> Spouse was born before January 2, 1954&emsp;
+                    <!--This is a separate input--><span class="fyhc"><input type="checkbox" name="Full-year health care coverage or exempt (see inst.)" value="Full-year health care coverage or exempt (see inst.)"> Full-year health care coverage or exempt (see inst.)&emsp; </span> <br>
+                    <input type="checkbox" name="Spouse is blind" value="Spouse is blind"> Spouse is blind, 1954&emsp;
+                    <input type="checkbox" name="Spouse itemizes on a separate return or you were dual-status alien" value="Spouse itemizes on a separate return or you were dual-status alien" checked> Spouse itemizes on a separate return or you were dual-status alien&emsp;
+                    <div class= "hr2"></div>
+                </span>
+            </div>
+            <div>
+                <span class="ha">
+                    Home address (number and street). If you have a P.O. box, see instructions.  &emsp;
+                </span>
+                <!--Apt no text accepts input as 2 digit number only-->
+                <span class="aptno">Apt. no.&emsp;</span><span class="pec"><b>Presidential Election Campaign(see inst.)</b></span><br>
+                
+            </div>
+            <div>
+                <span class="hatxt">
+                    <input class="borderlessgraytext" type="text" name="Home address"size="148"required>
+                </span>
+                <span class="aptspace"><input class="borderlessgraytext" type="text" name="Apt. no"size="10"required minlength="2" maxlength="2"required pattern="[0-9]{1}[0-9]{1}"></span>
+                    <!--For the query a series checkbox inputs are created-->
+                <span class="uandsps">
+                    <input type="checkbox" name="You" value="You" checked> <b>You</b>&emsp;
+                    <input type="checkbox" name="Spouse" value="Spouse"> <b>Spouse</b>
+                </span><br><br><br>
+                <hr>    
+            </div>
+            <div>
+                <span class="city">City, town or post office, state, and ZIP code. If you have a foreign address, attach Schedule 6  &emsp;</span>  
+                <!--For the query a  checkbox input is created-->
+                <span class="if">If more than four dependents, see inst. and ✓ here ▶&emsp;<input type="checkbox" name="more than four dependents" value="more than four dependents"></span>
+                <span class="citytxt"><input class="borderlessgraytext" type="text" name="City, town or post office, state, and ZIP code. "size="165"required></span>
+                <br><br>
+                <div class="vertical-line4"></div>
+            </div>
+            <table width border='3px'>
+                <!--The tr element represents a row of cells in a table.-->
+                <!--Creating first row-->
+                <tr class="bgcolor">
+                    <!--The th element represents a header cell in a table.-->
+                    <!--Creating first th-->
+                    <!--colspan divides a single cell to two coloumns-->
+                    <th colspan="2" scope="colgroup"align="left" width = "50%"><b>Dependents</b> (see instructions):<br>
+                        (1) First name <span class="paddingleft1"></span>
+                        Last name
+                    </th>
+                    <!--Creating second th-->
+                    <th width= "13%">
+                        (2) Social security number
+                    </th> 
+                    <!--Creating third th-->
+                    <th width= "10%">(3) Relationship to you</th>
+                    <!--Creating fourth th-->
+                    <!--colspan divides a single cell to two coloumns-->
+                    <th colspan="2" scope="colgroup">(4) ✓ if qualifies for (see inst.):<br>
+                        <span class="paddingleft3"></span>Child tax credit <span class="paddingleft2"></span>Credit for other dependents
+                    </th>
+                </tr>
+                <!--Creating second row-->
+                <tr>
+                    <!--The td element represents a data cell in a table.-->
+                    <!--For all names input is set as text with a validation of accepting only alphabets by using required attribute-->
+                    <!--Creating First td-->
+                    <td width ="29%"><input class="borderlessgraytext" type = "text"required pattern="[A-Za-z]+" size="63px"></td>
+                    <!--Creating Second td-->
+                    <td width ="21%"><input class="borderlessgraytext" type = "text"required pattern="[A-Za-z]+" size="44px"></td>
+                    <!--Creating third td-->
+                    <!--For SSN the input is set as text which accepts only 9 numbers as input in a certain format such as xxx-xx-xxxx -->
+                    <td><input class="borderlessgraytext" type = "text"required minlength="11" maxlength="11" required pattern="[0-9]{3}[ -][0-9]{2}[ -][0-9]{4}"value="xxx-xx-xxxx" size="25px"></td>
+                    <!--Creating Fourth td-->
+                    <!--For occupation input is set as text with a validation of accepting only alphabets by using required attribute-->
+                    <td><input class="borderlessgraytext" type = "text"required pattern="[A-Za-z]+"></td>
+                    <!--For the query a  checkbox input is created-->
+                    <td class="bgcolor"><center><input type = "checkbox"></center></td>
+                    <!--For the query a  checkbox input is created-->
+                    <td class="bgcolor"><center><input type = "checkbox"></center></td>
+                </tr>
+                <!--Creating Third row-->
+                <!--The pattern for table data td follows as 1st td: First name 2nd td: lastname 3rd td: SSN 4th td: Relationship 5th td: Child tax(Checkbox) 6th Credit for other dependents(Checkbox) -->
+                <tr>
+                    <td width ="29%"><input class="borderlessgraytext" type = "text"required pattern="[A-Za-z]+" size="63px"></td>
+                    <td width ="21%"><input class="borderlessgraytext" type = "text"required pattern="[A-Za-z]+" size="44px"></td>
+                    <td><input class="borderlessgraytext" type = "text"required minlength="11" maxlength="11" required pattern="[0-9]{3}[ -][0-9]{2}[ -][0-9]{4}"value="xxx-xx-xxxx" size="25px"></td>
+                    <td><input class="borderlessgraytext" type = "text"required pattern="[A-Za-z]+"></td>
+                    <!--Center tag is used for alligning to the center of the page-->
+                    <td class="bgcolor"><center><input type = "checkbox"></center></td>
+                    <td class="bgcolor"><center><input type = "checkbox"></center></td>
+                </tr>
+                <!--Creating Fourth row-->
+                <!--The pattern for table data td follows as 1st td: First name 2nd td: lastname 3rd td: SSN 4th td: Relationship 5th td: Child tax(Checkbox) 6th Credit for other dependents(Checkbox) -->
+                <tr>
+                    <td width ="29%"><input class="borderlessgraytext" type = "text"required pattern="[A-Za-z]+" size="63px"></td>
+                    <td width ="21%"><input class="borderlessgraytext" type = "text"required pattern="[A-Za-z]+" size="44px"></td>
+                    <td><input class="borderlessgraytext" type = "text" minlength="11" maxlength="11" required pattern="[0-9]{3}[ -][0-9]{2}[ -][0-9]{4}"value="xxx-xx-xxxx" size="25px"></td>
+                    <td><input class="borderlessgraytext" type = "text"required pattern="[A-Za-z]+"></td>
+                    <td class="bgcolor"><center><input type = "checkbox"></center></td>
+                    <td class="bgcolor"><center><input type = "checkbox"></center></td>
+                </tr>
+                <hr>
+            </table>
+            <div>
+                <span>
+                    <font size="5">Sign Here  &emsp;&emsp;</font><font size="1">Under penalties of perjury, I declare that I have examined this return and accompanying schedules and statements, and to the best of my knowledge and belief, they are true, correct, and complete. Declaration of preparer (other than taxpayer) is based on all information of which preparer has any knowledge.
+                </span>
+            </div>
+            <div>
+                <span>
+                    </font><font size="2"></font>Joint return?<span class="paddingleft4"></span>&nbsp;<span class="ys">Your signature </span> <span class="date1"> Date</span><span class="uroccu">Your occupation</span><span class="irs1"> If the IRS sent you an Identity Protection PIN, enter it here (see inst.)</span>
+                </span>
+            </div>
+            <div>
+                <span>
+                    See instructions. <span class="paddingleft5"></span>&nbsp;<span class="ystxt"><input class="borderlesstext" type = "text" size ="73"required pattern="[A-Za-z]+"></span><span class="date1txt"> <input class="borderlesstext" type = "date" required></span><span class="uroccutxt"><input class="bocu" type = "text" size="31"required pattern="[A-Za-z]+"></span> <span class="irs1txt"><input class="bb" type = "text" size="1"required minlength="1" maxlength="1"required pattern="[0-9]{1}"><input class="bb" type = "text" size="1"required minlength="1" maxlength="1"required pattern="[0-9]{1}"><input class="bb" type = "text" size="1"required minlength="1" maxlength="1"required pattern="[0-9]{1}"><input class="bb" type = "text" size="1"required minlength="1" maxlength="1"required pattern="[0-9]{1}"><input class="bb" type = "text" size="1"required minlength="1" maxlength="1"required pattern="[0-9]{1}"><input class="bb" type = "text" size="1"required minlength="1" maxlength="1"required pattern="[0-9]{1}"></span><span class="blank1"> </span>
+                </span>
+            </div>
+            <div>
+                <span>
+                    Keep a copy for <span class="paddingleft5"></span>&nbsp;<span class="ss">Spouse’s signature. If a joint return <b> both </b>must sign</span> <span class="date2"> Date </span> <span class="spsoccu">Spouse’s occupation</span> <span class="irs2"> If the IRS sent you an Identity Protection PIN, enter ithere (see inst.)</span>
+                </span>
+            </div>
+            <div>
+                    your records<span class="paddingleft6"></span><span class="sstxt"> <input class="borderlesstext" type = "text" size ="73"required pattern="[A-Za-z]+"></span><span class="date2txt"> <input class="borderlesstext"  type = "date"required></span> <span class="spsoccutxt"> <input class="bocu" type = "text" size="31"required pattern="[A-Za-z]+"></span><span class="irs2txt"> <input class="bb" type = "text" size="1"required minlength="1" maxlength="1"required pattern="[0-9]{1}"><input class="bb" type = "text" size="1"required minlength="1" maxlength="1"required pattern="[0-9]{1}"><input class="bb" type = "text" size="1"required minlength="1" maxlength="1"required pattern="[0-9]{1}"><input class="bb" type = "text" size="1"required minlength="1" maxlength="1"required pattern="[0-9]{1}"><input class="bb" type = "text" size="1"required minlength="1" maxlength="1"required pattern="[0-9]{1}"><input class="bb" type = "text" size="1"required minlength="1" maxlength="1"required pattern="[0-9]{1}"></span><span class="blank2"> </span>
+            </div>
+            <div class="triangle-right"></div>
+            <div class= "hr3"></div>
+            <div class="vertical-line5"></div>
+            <div class="vertical-line6"></div>
+            <div class="vertical-line7"></div>
+            <div class= "hr4"></div>
+            <div class= "hr5"></div>
+            <div class= "hr6"></div>
+            <div class= "hr7"></div>
+            <div>
+                <span>
+                    <span class="prname"> Preparer’s name</span> <span class="prsig"> Preparer’s signature</span> <span class="ptin"> PTIN </span><span class="fein"> Firm’s EIN</span> <span class="chkif"> Check if:</span>
+                </span>
+            </div>
+            <div>
+                <span>
+                    <span class="paddingleft2"><font size="5"><br>Paid</font></span> <span class="prnametxt"> <input class="borderlessgraytext" type = "text" size="40"required pattern="[A-Za-z]+"></span><span class="prsigtxt"><input class="borderlesstext"  type = "text" size="61"required pattern="[A-Za-z]+"></span><span class="ptintxt"> <input class="borderlessgraytext" type = "text" size="14"minlength="10" maxlength="10" required pattern="[0-9]{2}[ -][0-9]{7}"value="xx-xxxxxxx"></span><span class="feintxt"> <input class="borderlessgraytext" type = "text"minlength="10" maxlength="10" size="14" required pattern="[0-9]{2}[ -][0-9]{7}"value="xx-xxxxxxx"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chkifchk1"><input type = "checkbox"> 3rd Party Designee</span>
+                </span>
+            </div>
+            <div>
+                <span>
+                    <font size="5">Preparer</font>  &emsp;&emsp; &emsp;&emsp;<span class="firmname">Firm’s name ▶</span><span class="firmnametxt"> <input class="borderlessgraytext" type = "text" size="91"required pattern="[A-Za-z]+"> </span>&nbsp;&nbsp;<span class="fphno">Phone no.</span><span class="fphnotxt"> <input class="borderlessgraytext" type = "text" size="23"required minlength="12" maxlength="12"required pattern="[0-9]{3}[ -][0-9]{3}[ -][0-9]{4}"value="xxx-xxx-xxxx"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chkifchk2"><input type = "checkbox"> Self-employed</span>
+                </span>
+            </div>
+            <div>
+                <span>
+                    <font size="5">Use Only</font> <span class="firmadd">Firm’s address ▶</span><span class="firmaddtxt"> <input class="borderlessgraytext" type = "text" size="184"></span>
+                </span>
+            </div>
+            <div class="vertical-line8"></div>
+            <div class="vertical-line9"></div>
+            <div class="vertical-line10"></div>
+            <div class="vertical-line11"></div>
+            <div class="vertical-line12"></div>
+            <div class="vertical-line13"></div>
+            <div class="vertical-line14"></div>
+            <hr>
+            <div>
+                <span>
+                    <b><span><font size = "2">For Disclosure, Privacy Act, and Paperwork Reduction Act Notice, see separate instructions.</font></b></span> <span class="paddingleft6"><button type="submit" form="nameform" value="Submit">Submit Page 1</button> <font size = "1">Cat. No. 11320B </font>&nbsp; <a href="form1040_2.html"> page 2▶▶</a></span> <span class="paddingleft7"> <font size = "1">Form</font> <b>1040</b><font size = "1"> (2018)</font>
+                </span>
+            </div>
+            <div>
+                
+            </div>
+                   
+            
+        </form>
+
+
+        
+    </body>
+
+
+
+</html>
