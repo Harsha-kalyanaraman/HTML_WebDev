@@ -10,8 +10,8 @@
 ## How to run :
 * STEPS :
 1. Open a git bash shell
-2. Execute a command "git clone "https://github.com/neu-mis-info6150-spring-2019/assignment-4-harsha771750"
-3. Navigate to project directory `cd assignment-4-harsha771750'.
+2. Execute a command "git clone "https://github.com/Harsha-kalyanaraman"
+3. Navigate to project directory `cd webpage_design'.
 4. Run `npm install`.
 
 ## Build
