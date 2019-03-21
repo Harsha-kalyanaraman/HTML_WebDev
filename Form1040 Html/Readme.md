@@ -1,5 +1,5 @@
 #Web design:
-* Project_2
+* Project_1
 * HTML project has 2 web pages .html files
 
 #INSTRUCTIONS:
